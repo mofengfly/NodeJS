@@ -7,7 +7,7 @@ var spawn = require('child_process').spawn;
 
 // App variables
 var file_url = 'http://upload.wikimedia.org/wikipedia/commons/4/4f/Big%26Small_edit_1.jpg';
-var DOWNLOAD_DIR = './downloads/';
+var DOWNLOAD_DIR = '.\\downloads\\';
 
 // We will be downloading the files to a directory, so make sure it's there
 // This step is not required if you have manually created the directory
